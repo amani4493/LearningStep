@@ -1,20 +1,24 @@
 <head>
-    <link rel="stylesheet" href="css/login.css" >
+    <link rel="stylesheet" href="../css/quizAnswer.css" >
 </head>
 <body>
-    <div>
-        <header>
-            <div class="topBox">
-                <a>ログイン/会員登録</a>
-            </div>
-        </header>
-    </div>
     <div class="quizArea">
-        <span id="quizNumber">問1</span>
-        <span id="quizText">ハロゲン化銀のうち、左、白色の物質は何か</span>
-        <img src="C:\develop\mocks\images\quiz_img_mock.jpg" alt="quizImg">
-    </div>
-    <div class="answerArea">
-        <span id="choices">Agcl</span>
+        <div class="quizContent">
+            <div class="quizQuestion">
+                <span id="quizNumber">問1</span>
+                <span id="quizText">ハロゲン化銀のうち、左、白色の物質は何か</span>
+            </div>
+            <img src="C:\develop\mocks\images\quiz_img_mock.jpg" alt="quizImg" style="width: 600px;;">
+        </div>
+        <div class="answerArea">
+            <label for="ans1"><input type="radio">Agcl</label>
+            <label for="ans2"><input type="radio">NaCl</label>
+            <label for="ans3"><input type="radio">HCl</label>
+            <label for="ans4"><input type="radio">NaOH</label>
+        </div>
+        <div>
+            <button id="answer">回答</button>
+            <button id="netxQuiz">次へ</button>
+        </div>
     </div>
 </body>
