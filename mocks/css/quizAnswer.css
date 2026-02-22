@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.quizSection {
+    padding: 50px 30px;
+}
+h3, p {
+    margin: 0;
+}
+.quizArea{
+    display: flex;
+}
+.quizArea div {
+    flex: 1;
+    padding: 10px;
+}
+.quizImg img{
+    width: 100%;
+}
+.answerArea{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
