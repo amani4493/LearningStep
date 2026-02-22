@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <link rel="stylesheet" href="../css/quizAnswer.css" >
-</head>
-<body>
-    <div class="quizArea">
-        <div class="quizContent">
-            <div class="quizQuestion">
-                <span id="quizNumber">問1</span>
-                <span id="quizText">ハロゲン化銀のうち、左、白色の物質は何か</span>
+    <head>
+        <link rel="stylesheet" href="../css/quizAnswer.css" >
+    </head>
+    <body>
+        <div class="quizSection">
+            <h3 id="quizNumber">問1</h3>
+            <p id="quizText">ハロゲン化銀のうち、左、白色の物質は何か</p>
+            <div class="quizArea">
+                <div class="quizImg">
+                    <img src="C:\develop\mocks\images\quiz_img_mock.jpg" alt="quizImg" style="width: 600px;;">
+                </div>
+                <div class="answerArea">
+                    <label for="ans1"><input id="ans1" name="ans" type="radio">Agcl</label>
+                    <label for="ans2"><input id="ans2" name="ans" type="radio">NaCl</label>
+                    <label for="ans3"><input id="ans3" name="ans" type="radio">HCl</label>
+                    <label for="ans4"><input id="ans4" name="ans" type="radio">NaOH</label>
+                    <div>
+                        <button id="answer">回答</button>
+                        <button id="netxQuiz">次へ</button>
+                    </div>
+                </div>
             </div>
-            <img src="C:\develop\mocks\images\quiz_img_mock.jpg" alt="quizImg" style="width: 600px;;">
         </div>
-        <div class="answerArea">
-            <label for="ans1"><input type="radio">Agcl</label>
-            <label for="ans2"><input type="radio">NaCl</label>
-            <label for="ans3"><input type="radio">HCl</label>
-            <label for="ans4"><input type="radio">NaOH</label>
-        </div>
-        <div>
-            <button id="answer">回答</button>
-            <button id="netxQuiz">次へ</button>
-        </div>
-    </div>
-</body>
+    </body>
+</html>
